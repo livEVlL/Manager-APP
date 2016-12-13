@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Manager APP</string>
+    <string name="first">Account ID / Email</string>
+    <string name="second">Password</string>
+    <string name="btn1">Login</string>
+    <string name="btn2">Forgot Password</string>
+
+</resources>

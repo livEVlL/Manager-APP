@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Welcome!!"
+        android:textSize="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:text="營業額概況"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_money"
+        android:layout_weight="1"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:text="餐點熱門率"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_food"
+        android:layout_weight="1"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:text="人數統計表"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_people"
+        android:layout_weight="1"
+        android:layout_margin="20dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/sushi2"
+        android:id="@+id/imageView2"
+        android:layout_weight="2.46"
+        android:layout_height="200dp" />
+</LinearLayout>
