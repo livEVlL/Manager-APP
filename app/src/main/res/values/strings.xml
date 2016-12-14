@@ -4,5 +4,6 @@
     <string name="second">Password</string>
     <string name="btn1">Login</string>
     <string name="btn2">Forgot Password</string>
+    <string name="forgotpw">Phone Number</string>
 
 </resources>

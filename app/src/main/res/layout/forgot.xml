@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    >
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="250sp"
-        app:srcCompat="@drawable/sushi"
-        android:id="@+id/imageView"
-        android:src="@drawable/sushi"/>
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -33,7 +22,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/second"
+        android:id="@+id/textView3"
+        android:text="@string/forgotpw"
         android:layout_margin="5dp" />
 
     <EditText
@@ -42,18 +32,12 @@
         android:inputType="textPassword"
         android:textSize="15sp"
         android:id="@+id/txtpassword"
-        android:hint="please key your password."
+        android:hint="please key your phone."
         android:layout_margin="5dp" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_login"
-        android:text="@string/btn1" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn_forgot"
-        android:text="@string/btn2" />
+        android:id="@+id/goback"
+        android:text="Back"/>
 </LinearLayout>
