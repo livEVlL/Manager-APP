@@ -31,13 +31,6 @@ public class MainActivity extends Activity {
             }
         });
 
-//        Button goback = (Button)findViewById(R.id.goback) ;
-//        goback.setOnClickListener(new Button.OnClickListener(){
-//            public void onClick(View v){
-//                changeLayout3();
-//            }
-//        });
-
     }
     public void changeLayout(){
         Toast.makeText(this,"Login Success",Toast.LENGTH_SHORT).show();
@@ -48,8 +41,5 @@ public class MainActivity extends Activity {
         setContentView(R.layout.forgot);
     }
 
-    public void changeLayout3(){
-        setContentView(R.layout.activity_main);
-    }
 
 }

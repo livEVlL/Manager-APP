@@ -38,6 +38,6 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/goback"
+        android:id="@+id/btn_goback"
         android:text="Back"/>
 </LinearLayout>
